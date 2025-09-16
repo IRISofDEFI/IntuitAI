@@ -109,7 +109,7 @@ export default function CryptoPredictorChat() {
             </footer>
         </div>
     );
-}*/
+}
 
 import React, { useState, useEffect } from 'react';
 import { Input } from '@/components/ui/input';
@@ -145,7 +145,7 @@ export default function CryptoPredictorChat() {
                 </Link>
                 <div className="ml-4">
                     <h1 className="text-xl font-bold">Crypto Predictor AI</h1>
-                    <p className="text-sm text-red-400">AI Service Unavailable</p> {/* Changed text for clarity */}
+                    <p className="text-sm text-red-400">AI Service Unavailable</p> {/* Changed text for clarity }
                 </div>
             </header>
 
@@ -156,7 +156,7 @@ export default function CryptoPredictorChat() {
                         <div key={index} className={`flex gap-3 my-4 ${msg.role === 'user' ? "justify-end" : "justify-start"}`}>
                             {msg.role !== 'user' && (
                                 <div className="h-8 w-8 rounded-lg bg-slate-700 flex items-center justify-center mt-0.5 flex-shrink-0">
-                                    {/* Placeholder icon */}
+                                    {/* Placeholder icon *}
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-4 w-4 text-purple-400"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z" /><path d="M19 10v2a7 7 0 0 1-14 0v-2" /><line x1="12" x2="12" y1="19" y2="22" /></svg>
                                 </div>
                             )}
@@ -187,4 +187,6 @@ export default function CryptoPredictorChat() {
             </footer>
         </div>
     );
-}
+}*/
+
+
