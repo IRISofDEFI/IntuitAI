@@ -65,7 +65,7 @@ export default function Home() {
             <div className="flex items-center gap-4">
               <div className="text-3xl font-bold tracking-wider">IntuitAI</div>
               <div className="flex items-center gap-2 px-3 py-1 bg-slate-800/60 rounded-lg backdrop-blur-sm border border-slate-700/50">
-                <img 
+                <img
                   src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68c88e559c369481ed8dff8c/19c7aa35d_fluentxyz.png"
                   alt="Fluent Logo"
                   className="w-4 h-4"
@@ -79,16 +79,15 @@ export default function Home() {
 
             <div className="hidden lg:flex items-center gap-8">
               {navItems.map((item, index) => (
-                <a 
-                  key={index} 
-                  href="#" 
+                <a
+                  key={index}
+                  href="#"
                   onClick={(e) => {
                     e.preventDefault();
                     setActiveNav(index);
                   }}
-                  className={`flex items-center gap-1 transition-colors duration-300 hover:text-purple-400 ${
-                    activeNav === index ? 'text-purple-400 font-semibold' : 'text-gray-300'
-                  }`}
+                  className={`flex items-center gap-1 transition-colors duration-300 hover:text-purple-400 ${activeNav === index ? 'text-purple-400 font-semibold' : 'text-gray-300'
+                    }`}
                 >
                   {item}
                   {item !== "Connect Wallet" && <ChevronDown className="w-4 h-4" />}
@@ -136,6 +135,7 @@ export default function Home() {
                   Get Predictions
                 </Button>
               </Link>
+
 
               <div className="flex justify-center md:justify-start gap-12 mt-12">
                 <div>
@@ -190,11 +190,11 @@ export default function Home() {
         <section className="px-6 md:px-12 py-16 relative overflow-hidden">
           <div
             className="absolute top-24 left-1/2 -translate-x-1/4 w-32 h-32 bg-no-repeat bg-contain opacity-10"
-            style={{backgroundImage: "url('https://cdn.pixelbin.io/v2/throbbing-poetry-5e04c5/original/fxVE.png')"}}
+            style={{ backgroundImage: "url('https://cdn.pixelbin.io/v2/throbbing-poetry-5e04c5/original/fxVE.png')" }}
           ></div>
-           <div
+          <div
             className="absolute inset-0 bg-no-repeat bg-left-top opacity-5"
-            style={{backgroundImage: "url('https://cdn.pixelbin.io/v2/throbbing-poetry-5e04c5/original/wavy_lines.png')"}}
+            style={{ backgroundImage: "url('https://cdn.pixelbin.io/v2/throbbing-poetry-5e04c5/original/wavy_lines.png')" }}
           ></div>
 
           <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center relative z-10">
@@ -253,11 +253,11 @@ export default function Home() {
         <section className="px-6 md:px-12 py-24 relative">
           <div
             className="absolute bottom-16 -left-16 w-32 h-32 bg-no-repeat bg-contain opacity-10 animate-spin"
-            style={{backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68c88e559c369481ed8dff8c/f8bc5d584_toka5.png')", animationDuration: '40s'}}
+            style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68c88e559c369481ed8dff8c/f8bc5d584_toka5.png')", animationDuration: '40s' }}
           ></div>
           <div
             className="absolute top-24 right-0 w-48 h-48 bg-no-repeat bg-contain opacity-10"
-            style={{backgroundImage: "url('https://cdn.pixelbin.io/v2/throbbing-poetry-5e04c5/original/fxVE.png')"}}
+            style={{ backgroundImage: "url('https://cdn.pixelbin.io/v2/throbbing-poetry-5e04c5/original/fxVE.png')" }}
           ></div>
 
           <div className="max-w-5xl mx-auto text-center relative z-10">
@@ -339,7 +339,7 @@ export default function Home() {
           <div className="absolute top-16 right-16 w-8 h-8 text-purple-400 animate-pulse">*</div>
           <svg width="60" height="150" viewBox="0 0 100 250" fill="none" xmlns="http://www.w3.org/2000/svg" className="absolute top-8 right-0 -mr-8 opacity-10 hidden md:block">
             <path d="M83.25,2.9c-23.8,9.5-49.8,25-49.8,59.5s23,59,51,60.5s44-24.5,44-55.5s-23-60-52-64s-48.5,23-48.5,56.5 
-            s24,62.5,53.5,62.5s48.5-27,48.5-57s-27-58-53-61.5" stroke="white" strokeWidth="2" strokeLinecap="round"/>
+            s24,62.5,53.5,62.5s48.5-27,48.5-57s-27-58-53-61.5" stroke="white" strokeWidth="2" strokeLinecap="round" />
           </svg>
 
           <div className="max-w-4xl mx-auto text-center relative z-10">
@@ -381,7 +381,7 @@ export default function Home() {
             <div className="relative flex flex-col items-center justify-center p-8 bg-slate-800/60 rounded-2xl backdrop-blur-sm border border-slate-700/50">
               <p className="text-sm text-gray-400 mb-4 tracking-widest">POWERED BY</p>
               <div className="flex items-center gap-4">
-                <img 
+                <img
                   src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68c88e559c369481ed8dff8c/19c7aa35d_fluentxyz.png"
                   alt="Fluent Logo"
                   className="w-12 h-12"
